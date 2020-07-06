@@ -6,7 +6,6 @@
     <meta charset="utf-8">
 
 <body>
-    <h2>Connexion</h2>
 <form method="POST" action="securite.php">
         <label for="login">Login</label>
     <div id="login">
