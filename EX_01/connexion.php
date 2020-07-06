@@ -1,3 +1,5 @@
+<?php $page = 'page connexion'?>
+
 <!doctype html>
 <html>
     <title>Connexion</title>

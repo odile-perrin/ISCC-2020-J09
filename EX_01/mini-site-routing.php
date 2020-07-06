@@ -7,13 +7,13 @@
     <A HREF="http://localhost/ISCC/J08/EX_01/mini-site-routing.php?page=1">ACCUEIL</A> 
     <A HREF="http://localhost/ISCC/J08/EX_01/mini-site-routing.php?page=2">PAGE 1</A> 
     <A HREF="http://localhost/ISCC/J08/EX_01/mini-site-routing.php?page=3">PAGE 2</A>
+    <A HREF="http://localhost/ISCC/J09/EX_01/connexion.php?page=connexion">PAGE CONNEXION</A>
 
 </header>
 
 <body>
 
 <?php
-
     if($_GET['page'] ==1){
    echo '<h1>Accueil !</h1>';
 
@@ -26,7 +26,6 @@
 }
     elseif ($_GET['page'] ==connexion){
     echo '<h1>Page connexion</h1>';
-    include ("connexion.php");
 }
 ?>
 
