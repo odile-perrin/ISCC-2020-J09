@@ -8,6 +8,7 @@
     <A HREF="http://localhost/ISCC/J09/EX_01/mini-site-routing.php?page=2">PAGE 1</A> 
     <A HREF="http://localhost/ISCC/J09/EX_01/mini-site-routing.php?page=3">PAGE 2</A>
     <A HREF="http://localhost/ISCC/J09/EX_01/mini-site-routing.php?page=connexion">PAGE CONNEXION</A>
+    <A HREF="http://localhost/ISCC/J09/EX_01/mini-site-routing.php?page=admin">ADMIN</A>
 
 </header>
 
@@ -29,6 +30,10 @@ session_start();
     echo '<h1>Connexion</h1>';
     include("connexion.php");
 }
+    elseif ($_GET['page'] =='admin'){
+    echo '<h1>Admin</h1>';
+    include("admin.php");
+}
 ?>
 
 <?php
@@ -45,10 +50,7 @@ session_start();
         }
     }
 ?>
-
 </body>
-
 <footer>
 </footer>
-
 </html>
